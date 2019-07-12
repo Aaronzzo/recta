@@ -170,6 +170,14 @@ h6 {
 # Intro Section
 --------------------------------------------------------------*/
 
+#main {
+  margin-top: -35px;
+}
+
+.section-header {
+  padding-top: 30px;
+}
+
 #intro {
   width: 100%;
   position: relative;
@@ -340,6 +348,14 @@ h6 {
   content: "\f105";
   position: absolute;
   right: 15px;
+}
+
+.box .icon {
+  width: 60px;
+  height: 60px;
+  border: 1px solid;
+  border-radius: 50%;
+  margin-left: 15px;
 }
 
 /* Mobile Navigation */
@@ -1409,5 +1425,9 @@ h6 {
 @media (max-width: 574px) {
   #intro {
     padding: 100px 0 20px 0;
+    height: 95vh;
+  }
+  #intro .intro-img {
+    margin-top: 80px;
   }
 }
